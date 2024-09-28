@@ -22,7 +22,7 @@ global.sudo = process.env.SUDO || "2349037288167";
 global.owner = process.env.OWNER_NUMBER || "2349037288167";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "true";
+global.wlcm = process.env.WELCOME || "false";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
@@ -51,8 +51,8 @@ module.exports = {
   caption: process.env.CAPTION || "𝖂𝖔𝖜 𝖙𝖔𝖕𝖚 𝖒𝖉 𝖍𝖆𝖘 𝖏𝖚𝖘𝖙 𝖌𝖊𝖓𝖊𝖗𝖆𝖙𝖊𝖉 𝖆 𝖓𝖊𝖜 𝖋𝖎𝖑𝖊",
   author: process.env.PACK_AUTHER || "TOPU",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "TOP-Md",
-  ownername: process.env.OWNER_NAME || "TOPU",
+  botname: process.env.BOT_NAME || "Ghod bot",
+  ownername: process.env.OWNER_NAME || "Ghod Fada",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
